@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #440201;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: rgba(204, 6, 6, 0.795); /* Transparan kart yapısı */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #0caf53;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e8b57;
+    color: rgb(255, 255, 255);
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1e6b47;
+}
+
+.email-list {
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+li {
+    background-color: #ffe4b5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.raffle-btn, .email-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.email-btn {
+    background-color: #d9534f;
+}
+
+.email-btn:hover {
+    background-color: #b52b29;
+}
